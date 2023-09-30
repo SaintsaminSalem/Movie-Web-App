@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import MovieDetail from './MovieDetail';
 import MovieDetailsPage from './MovieDetailsPage';
 import Home from './Home';
-import History from './src/History'
+import History from './History'
 
 const API_KEY = '5cfa474f'
 const API_URL = 'http://www.omdbapi.com/?i=tt3896198&apikey=5cfa474f';
