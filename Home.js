@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect } from 'react';
-import MovieCard from './MovieCard';
+import MovieCard from './src/MovieCard';
 import MovieDetailsPage from './MovieDetailsPage';
 import { Link } from 'react-router-dom'; // Import Link
 
