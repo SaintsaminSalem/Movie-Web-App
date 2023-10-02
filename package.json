@@ -1,29 +1,27 @@
 {
   "name": "my-first-react-app",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "description": "A description for your React application",
   "private": true,
   "main": "index.js",
+  "scripts": {
+    "start": "node server.js", 
+    "build": "node build.js", 
+    "test": "node test.js",   
+    "eject": "node eject.js"
+  },
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
     "express": "^4.18.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^5.3.4",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
-    "start": "node server.js",
-    "build": "node build.js",
-    "test": "node test.js",
-    "eject": "node eject.js"
-  },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": "react-app"
   },
   "browserslist": {
     "production": [
@@ -36,5 +34,8 @@
       "last 1 Firefox version",
       "last 1 Safari version"
     ]
-  }
+  },
+  "devDependencies": {},
+  "author": "Your Name",
+  "license": "MIT"
 }
