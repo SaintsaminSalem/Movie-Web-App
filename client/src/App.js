@@ -1,5 +1,6 @@
-/* eslint-disable no-unused-vars */
+
 /* eslint-disable no-undef */
+
 import React, { useEffect, useState } from 'react';
 import './Home.css';
 import searchIcon from './search.svg';

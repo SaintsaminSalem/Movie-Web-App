@@ -3,12 +3,11 @@
   "version": "1.0.0",
   "description": "A description for your React application",
   "private": true,
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
     "start": "node server.js", 
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error no test specified\" && exit 1"
+
   },
   "dependencies": {
     "express": "^4.18.2",
